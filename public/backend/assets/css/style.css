@@ -1,0 +1,35 @@
+body {
+    background-color: #e2f9f7;
+    background-image: url('/backend/assets/images/bg.png');
+    background-repeat: repeat-x;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.25rem; /* Tamaño de fuente más grande (20px) */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    min-width: 3rem;
+    transition: transform 0.2s ease-in-out; /* Efecto suave en hover */
+    padding: 0.5rem 1rem; /* Espaciado interno cómodo */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+nav a:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+    padding: 0.5rem 1rem; /* Reduce el padding interno de los enlaces */
+    font-size: 0.875rem; /* Ajusta el tamaño de la fuente si es necesario */
+}
+
+#AcordesContainer {
+    justify-items: center; /* Asegura que las imágenes y títulos estén centrados */
+    align-items: start;
+}
+
+
+
+
+
+
+
+
